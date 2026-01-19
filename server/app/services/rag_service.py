@@ -42,7 +42,7 @@ def query_rag(user_question: str, db: Session):
     system_prompt = """
     You are an intelligent academic assistant. 
     Answer the user's question strictly based on the provided Context. 
-    If the answer is not in the context, say "I don't know".
+    If the answer is not in the context, say "Please ask a question that is related to the uploaded documents.".
     """
 
     user_prompt = f"Context:\n{context_str}\n\nQuestion:\n{user_question}"

@@ -200,7 +200,7 @@ function App() {
             </div>
             <h1 className="app-title">Intelligent Knowledge Retrieval</h1>
           </div>
-          <p className="app-subtitle">Upload documents and get instant, accurate answers powered by advanced AI</p>
+          <p className="app-subtitle">Upload documents and get instant, accurate answers</p>
         </header>
 
         {/* Chat Container */}

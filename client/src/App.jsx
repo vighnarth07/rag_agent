@@ -187,7 +187,7 @@ function App() {
   return (
     <div className="app-wrapper">
       <div className="background-gradient"></div>
-      
+
       <div className="app-container">
         {/* Header */}
         <header className="app-header">
@@ -316,11 +316,6 @@ function App() {
             </div>
           </div>
         </div>
-
-        {/* Footer */}
-        <footer className="app-footer">
-          <p>Powered by advanced AI • Secure & Private</p>
-        </footer>
       </div>
     </div>
   )
